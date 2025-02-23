@@ -21,3 +21,12 @@
   > gcloud --version
 - Faça o login com a conta correta no GCP:
   > gcloud auth application-default login
+
+# Rode o terraform
+
+> terraform init<br>
+> terraform plan<br>
+> terraform apply
+
+- Para desfazer (**IRREVERSÍVEL**):
+  > terraform destroy
